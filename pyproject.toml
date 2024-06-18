@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "island-model-deap"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Prado <guizmk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.4"
+scoop = "^0.7.2.0"
+numpy = "^2.0.0"
+deap = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
